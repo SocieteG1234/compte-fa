@@ -7,13 +7,13 @@ export const initialUsers = [
   {
     code: '07014860451',
     passwort: '260823',
-    name: 'Marie Sylvia',
+    name: 'Marie Van',
     email: 'marie.sylvia@exemple.com',
     telefon: '+41 79 000 00 00',
     waehrung: 'CHF',
-    kontostand: 18420.5,
+    kontostand: 70000.5,
     kontonummer: 'CH93 0076 2011 6238 5295 7',
-    filiale: 'Agence Genève Centre',
+    filiale: 'Agence Annemasse Centre',
     eroeffnungsdatum: '12.03.2021',
     status: 'actif',
     transaktionen: [
@@ -61,4 +61,4 @@ export const initialUsers = [
   }
 ];
 
-export const DATA_VERSION = 5;
+export const DATA_VERSION = 6;
