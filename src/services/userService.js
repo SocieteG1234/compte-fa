@@ -101,6 +101,10 @@ const UserService = {
       return { success: false, message: 'Compte de l\'expéditeur introuvable.' };
     }
 
+    if (sender.status && sender.status !== 'actif') {
+      return { success: false, message: 'Ce compte est bloqué. Les virements sont indisponibles jusqu\'à sa réactivation.' };
+    }
+
     if (amount > sender.kontostand) {
       return { success: false, message: 'Solde insuffisant pour ce virement.' };
     }

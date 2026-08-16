@@ -13,6 +13,18 @@ export default function DashboardPage() {
         <p className="app__subtitle">Tous les montants sont affichés en francs suisses (CHF).</p>
       </section>
 
+      {currentUser.status && currentUser.status !== 'actif' && (
+        <div className="account-alert account-alert--blocked" role="alert">
+          <span className="account-alert__icon" aria-hidden="true">⚠</span>
+          <div>
+            <p className="account-alert__title">Compte bloqué</p>
+            <p className="account-alert__text">
+              {currentUser.blockReason || 'Contactez votre agence pour plus d\'informations.'}
+            </p>
+          </div>
+        </div>
+      )}
+
       <div className="app__grid">
         <AccountCard account={currentUser} displayCurrency={currentUser.waehrung} />
         <TransactionList
