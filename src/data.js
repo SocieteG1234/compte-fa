@@ -8,7 +8,7 @@ export const initialUsers = [
     code: '07014860451',
     passwort: '260823',
     name: 'Marie Van',
-    email: 'marie.sylvia@exemple.com',
+    email: 'marie.van@gmail.com',
     telefon: '+41 79 000 00 00',
     waehrung: 'CHF',
     kontostand: 70000.5,
