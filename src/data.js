@@ -61,4 +61,4 @@ export const initialUsers = [
   }
 ];
 
-export const DATA_VERSION = 6;
+export const DATA_VERSION = 7;
