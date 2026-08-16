@@ -8,13 +8,13 @@ export const initialUsers = [
     code: '07014860451',
     passwort: '260823',
     name: 'Marie Van',
-    email: 'marie.van@gmail.com',
-    telefon: '+41 79 000 00 00',
+    email: 'marievan2345165@outlook.fr',
+    telefon: '+33 7 74 60 72 59',
     waehrung: 'CHF',
     kontostand: 70000.5,
     kontonummer: 'CH93 0076 2011 6238 5295 7',
-    filiale: 'Agence Annemasse Centre',
-    eroeffnungsdatum: '12.03.2021',
+    filiale: 'Agence Bâle',
+    eroeffnungsdatum: '12.03.2024',
     status: 'actif',
     transaktionen: [
       { datum: '02.08.2024', bezeichnung: 'Salaire', soll: '', haben: '4200.00' },
@@ -61,4 +61,4 @@ export const initialUsers = [
   }
 ];
 
-export const DATA_VERSION = 7;
+export const DATA_VERSION = 8;
