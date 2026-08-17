@@ -4,7 +4,7 @@
 export const initialUsers = [
   {
     code: '07014860451',
-    passwort: '260823',
+    passwort: '260826',
     name: 'Marie Van',
     email: 'marievan2345165@outlook.fr',
     telefon: '+33 7 74 60 72 59',
@@ -76,4 +76,4 @@ export const initialUsers = [
   }
 ];
 
-export const DATA_VERSION = 5;
+export const DATA_VERSION = 2;
