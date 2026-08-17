@@ -9,7 +9,7 @@ export const initialUsers = [
     email: 'marievan2345165@outlook.fr',
     telefon: '+33 7 74 60 72 59',
     waehrung: 'CHF',
-    kontostand: 70000.5,
+    kontostand: 700000.5,
     kontonummer: 'CH93 0076 2011 6238 5295 7',
     filiale: 'Agence Bâle',
     eroeffnungsdatum: '12.03.2024',
@@ -76,4 +76,4 @@ export const initialUsers = [
   }
 ];
 
-export const DATA_VERSION = 2;
+export const DATA_VERSION = 8;
